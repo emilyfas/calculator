@@ -160,6 +160,7 @@ def start_app():
 
 
     def on_close():
+        clear_history_csv()
         app.destroy()
 
     app.protocol("WM_DELETE_WINDOW", on_close)
