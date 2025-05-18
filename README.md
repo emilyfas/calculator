@@ -15,16 +15,6 @@ Este é um projeto de **calculadora com interface gráfica (GUI)** desenvolvido 
 
 ---
 
-## Interface da Aplicação
-
-A calculadora possui um tema escuro e botões estilizados para melhor visualização.   
-Os ícones utilizados estão na pasta `images/`.
-
-### Imagens de Referência:
-TODO: Adicionar capturas de tela 
-
----
-
 ## Estrutura do Projeto
 
 ```
@@ -74,6 +64,8 @@ pip install -r requirements.txt
 python main.py
 ```
 
+---
+
 ## Detalhes Técnicos
 `gui.py`
 
@@ -110,6 +102,26 @@ Centraliza valores fixos usados no projeto como:
 - Caminhos para os arquivos de imagem
 - Operadores permitidos
 
+---
+
+## Interface da Aplicação
+
+A calculadora possui um tema escuro e botões estilizados para melhor visualização.   
+Os ícones utilizados estão na pasta `images/`.
+
+### Imagens de Referência:
+TODO: Adicionar capturas de tela 
+
+
+<img src="https://github.com/user-attachments/assets/8deb1b2c-2c71-4f4b-97a0-4f1429b27773" width="260"/>
+
+<img src="https://github.com/user-attachments/assets/7f2ccd54-7638-482e-8e17-1d139b02b57f" width="220"/>
+
+<img src="https://github.com/user-attachments/assets/160d9208-298f-4b08-9511-8f4401e764fc" width="260"/>
+
+<img src="https://github.com/user-attachments/assets/234a5f9b-f717-47cf-acd4-7858664f1aa5" width="220"/>
+
+---
 
 ## Tecnologias Utilizadas
 - **Python 3.12**
@@ -122,6 +134,7 @@ Centraliza valores fixos usados no projeto como:
 
 - **CSV** — para salvar e recuperar histórico de operações
 
+---
 
 ## Exemplo de Operação
 
@@ -135,6 +148,7 @@ Centraliza valores fixos usados no projeto como:
 
 **5.** Clique em `History` para visualizar ou restaurar   
 
+---
 
 ## Histórico
 O histórico é armazenado no arquivo `calculator/history/history.csv` com o seguinte formato:
@@ -146,6 +160,7 @@ Operação,Resultado
 ```
 Ele é automaticamente limpo ao fechar o app ou manualmente clicando no botão de lixeira dentro da janela de histórico.
 
+---
 
 ## Autora  
 **Emilly Fernandes**   
