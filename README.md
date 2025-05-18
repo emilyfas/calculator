@@ -110,8 +110,6 @@ A calculadora possui um tema escuro e botões estilizados para melhor visualiza�
 Os ícones utilizados estão na pasta `images/`.
 
 ### Imagens de Referência:
-TODO: Adicionar capturas de tela 
-
 
 <img src="https://github.com/user-attachments/assets/8deb1b2c-2c71-4f4b-97a0-4f1429b27773" width="260"/>
 
